@@ -16,7 +16,7 @@ const categories = [
   
   function categorySelected() {
     // eslint-disable-next-line no-restricted-globals
-    console.log("hello", `${name} clicked`)
+    console.log( `${name} clicked`)
   }
 
 
@@ -24,14 +24,14 @@ function Nav() {
   return (
     <header  className="my-5">
   <h1>
-    <a href="/">
+  <a data-testid="link" href="/">
       Ethan Pfeiffer's Portfolio
     </a>
   </h1>
   <nav>
     <ul className="flex-row">
       <li className="mx-2">
-        <a href="#about">
+        <a data-testid="about" href="#about">
           About me
         </a>
       </li>
