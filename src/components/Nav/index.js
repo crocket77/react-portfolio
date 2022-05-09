@@ -37,6 +37,10 @@ function Nav(props) {
         <span onClick={() => setCurrentPage('Contact')}>Contact</span>
       </li>
 
+      <li className={`mx-2 ${currentPage==='Resume' && 'navActive'}`} >
+        <span onClick={() => setCurrentPage('Resume')}>Resume</span>
+      </li>
+
       {categories.map((category) => (
         <li className={`mx-2 ${currentCategory.name === category.name && !contactSelected && `navActive`}`}
           key={category.name}

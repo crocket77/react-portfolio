@@ -1,11 +1,15 @@
 import React,{useState}  from 'react';
 import logo from './logo.svg';
 import './App.css';
-import About from './components/About';
+
 import Nav from './components/Nav';
+import About from './components/About';
+import Resume from './components/Resume'
 import Gallery from "./components/Gallery";
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+
+
 
 function App() {
   const [categories] = useState([
@@ -44,10 +48,12 @@ function App() {
         <ContactForm></ContactForm>
         </>
         }
-      {/* {currentPage === 'Portfolio' &&
-        <Portfolio></Portfolio>}
       {currentPage === 'Resume' &&
-        <Resume></Resume>} */}
+        <Resume></Resume>}
+      
+      {/* {currentPage === 'Portfolio' &&
+        <Portfolio></Portfolio>} */}
+
       
       <Footer></Footer>
       </main>
