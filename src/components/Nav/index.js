@@ -41,7 +41,11 @@ function Nav(props) {
         <span onClick={() => setCurrentPage('Resume')}>Resume</span>
       </li>
 
-      {categories.map((category) => (
+      <li className={`mx-2 ${currentPage==='Portfolio' && 'navActive'}`} >
+        <span onClick={() => setCurrentPage('Portfolio')}>Portfolio</span>
+      </li>
+
+      {/* {categories.map((category) => (
         <li className={`mx-2 ${currentCategory.name === category.name && !contactSelected && `navActive`}`}
           key={category.name}
         >
@@ -49,7 +53,7 @@ function Nav(props) {
           {capitalizeFirstLetter(category.name)}
         </span>
         </li>
-      ))}
+      ))} */}
     </ul>
   </nav>
   </header>

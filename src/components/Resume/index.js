@@ -13,7 +13,7 @@ function Resume() {
         <div id='resume' nameClass="credentials">
         <div nameClass="credentials-text">
           <h1>Profile:</h1>
-          <p>Manufacturing engineering and applied mathematics double major graduate. Started out in research
+          <p>Manufacturing engineering and applied mathematics double major graduate from Texas State University. Starting out in research
             working to find creative inventions and collaborations that could be applied towards renewable
             energy technologies. Transferred into automation, controls design, security and PLC programming.
             Seeking to apply project management, programming knowledge, and experience. 

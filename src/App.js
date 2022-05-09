@@ -5,8 +5,8 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Resume from './components/Resume'
-import Gallery from "./components/Gallery";
 import ContactForm from './components/ContactForm';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 
@@ -51,8 +51,8 @@ function App() {
       {currentPage === 'Resume' &&
         <Resume></Resume>}
       
-      {/* {currentPage === 'Portfolio' &&
-        <Portfolio></Portfolio>} */}
+      {currentPage === 'Portfolio' &&
+        <Portfolio></Portfolio>}
 
       
       <Footer></Footer>

@@ -9,7 +9,7 @@ main {
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
-  --dark: #000000;
+  --dark: #070707;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -238,6 +238,7 @@ textarea {
 .img-thumbnail {
   width: auto;
   height: 300px;
+  width:360px;
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -292,4 +293,13 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.project-header{
+  border: 1px solid ;
+  background-color: var(--primary) ;
+}
+
+.port-container{
+  border: 1px solid blue;
 }
