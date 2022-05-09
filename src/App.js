@@ -23,38 +23,32 @@ function App() {
 
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
-
       <Nav
       categories={categories}
       setCurrentCategory={setCurrentCategory}
       currentCategory={currentCategory}
       contactSelected={contactSelected}
       setContactSelected={setContactSelected}
+      setCurrentPage={setCurrentPage}
+      currentPage={currentPage}
       ></Nav>
       <main>
-      {!contactSelected ? (
-      <>
-        <Gallery currentCategory={currentCategory}></Gallery>
+
+      {currentPage === 'About' &&
+        <>
         <About></About>
-      </>
-       ) : (
+        </>
+        }
+      {currentPage === 'Contact' &&
+        <>
         <ContactForm></ContactForm>
-      )}
+        </>
+        }
+      {/* {currentPage === 'Portfolio' &&
+        <Portfolio></Portfolio>}
+      {currentPage === 'Resume' &&
+        <Resume></Resume>} */}
+      
       <Footer></Footer>
       </main>
     </div>
