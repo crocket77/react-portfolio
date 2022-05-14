@@ -49,20 +49,20 @@ function ContactForm() {
         <section>
           <h1>Contact me</h1>
           <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
+            <div className='inputs'>
                 <label htmlFor="name">Name:</label>
                 <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
             </div>
-            <div>
+            <div className='inputs'>
                 <label htmlFor="email">Email address:</label>
                 <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
             </div>
-            <div>
+            <div className='inputs'>
                 <label htmlFor="message">Message:</label>
                 <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5"  />
             </div>
               {errorMessage && (
-                <div>
+                <div className='error-msg'>
                   <p className="error-text">{errorMessage}</p>
                 </div>
               )}
