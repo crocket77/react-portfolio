@@ -12,27 +12,19 @@ import Footer from './components/Footer';
 
 
 function App() {
-  const [categories] = useState([
-    {
-      name: 'projects',
-      description: 'Projects I have worked on or contributed to.',
-    },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' },
-  ]);
+  // const [categories] = useState([]);
   const [currentPage, setCurrentPage] = useState('About');
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
-  const [contactSelected, setContactSelected] = useState(false);
+  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  // const [contactSelected, setContactSelected] = useState(false);
 
   return (
     <div className="App">
       <Nav
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
+      // categories={categories}
+      // setCurrentCategory={setCurrentCategory}
+      // currentCategory={currentCategory}
+      // contactSelected={contactSelected}
+      // setContactSelected={setContactSelected}
       setCurrentPage={setCurrentPage}
       currentPage={currentPage}
       ></Nav>
