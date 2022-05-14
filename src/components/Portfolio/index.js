@@ -60,10 +60,11 @@ function Portfolio() {
                     <img 
                         src={require(`../../assets/portfolio/${project.image}`)}
                         alt={project.title}
-                        className="img-thumbnail mx-1 py-1 w-100 h-100"
+                        className="img-thumbnail w-100 h-100"
                         
                         key={project.title}
-                    /></a>
+                    />
+                    </a>
                 </div>
                 </>   
                 ))}

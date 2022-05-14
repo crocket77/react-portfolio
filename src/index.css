@@ -239,7 +239,6 @@ textarea {
   width: auto;
   height: 300px;
   width:360px;
-  margin-bottom: 50px;
   cursor: pointer;
 }
 
@@ -301,5 +300,7 @@ a {
 }
 
 .port-container{
-  border: 1px solid blue;
+  border: 1px solid (--primary);
+  align-content: center;
+  justify-content: space-around;
 }
