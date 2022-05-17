@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from "emailjs-com";
 
 
 
@@ -39,10 +40,25 @@ function ContactForm() {
   
 
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formState);
-  }
+    emailjs
+      .sendForm(
+        "service_w4mez1o",
+        "template_7aaby5b",
+        form.current,
+        "bzqpeRpIYIG8Jyly3"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
 
     return (
