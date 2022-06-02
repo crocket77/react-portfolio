@@ -3,6 +3,13 @@ import React from 'react';
 function Portfolio() {
     const projects =[
         {
+            title: 'Life Sherpa',
+            description: "Mentoring website where you can pass on your life's work and knowledge",
+            github: 'https://github.com/crocket77/Aniverse',
+            link: 'https://protected-escarpment-45805.herokuapp.com/',
+            image: 'life_sherpa.bmp'
+        },
+        {
             title: 'Aniverse',
             description: "Anonymous social media app where you can personify your favorite anime characters.",
             github: 'https://github.com/crocket77/Aniverse',

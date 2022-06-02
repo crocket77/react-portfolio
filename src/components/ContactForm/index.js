@@ -40,31 +40,27 @@ function ContactForm() {
   
 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_w4mez1o",
-        "template_7aaby5b",
-        form.current,
-        "bzqpeRpIYIG8Jyly3"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   emailjs
+  //     .sendForm("service_n5ypytl","template_k1tvjdf",form.current,"bzqpeRpIYIG8Jyly3"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         setDone(true);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
 
     return (
         <section>
           <h1>Contact me</h1>
-          <form id="contact-form" onSubmit={handleSubmit}>
+          <form id="contact-form" onSubmit={handleChange}>
             <div className='inputs'>
                 <label htmlFor="name">Name:</label>
                 <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
