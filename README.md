@@ -17,4 +17,11 @@ npm install -D gh-pages
 Next, modify the package.json file to include the homepage property at the top. This is where the website will be deployed. Use your GitHub username in place of the <username> placeholder, and repository in place of <repository>:
 "homepage": "http://<username>.github.io/<repostiory>",
 
+Now add the following code to the scripts property:
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build
+
+save, add, commit, and push your work to GitHub
+Then at the command-line prompt, type the following command to deploy the site:
+npm run deploy
 
