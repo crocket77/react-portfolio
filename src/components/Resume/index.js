@@ -26,7 +26,7 @@ function Resume() {
               <li>{'\u2022'}B.S. Manufacturing Engineering</li> 
               <li>{'\u2022'}B.S. Applied Mathematics</li>
 
-              <h5>University of Texas – Web Development Bootcamp 2022</h5>
+              <h5>University of Texas – Web Development Bootcamp, Graduation 2022</h5>
             
           <br></br>    
           <h1>Patents:</h1> 
