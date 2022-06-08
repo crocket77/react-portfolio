@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.be6a5a1e.css",
-    "main.js": "/react-portfolio/static/js/main.82c03cc7.js",
+    "main.js": "/react-portfolio/static/js/main.60313d6b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/food_festival.png": "/react-portfolio/static/media/food_festival.3a87d0b0ebecd49f591b.png",
     "static/media/life_sherpa.bmp": "/react-portfolio/static/media/life_sherpa.169ef52383ab297bb3a4.bmp",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-portfolio/index.html",
     "main.be6a5a1e.css.map": "/react-portfolio/static/css/main.be6a5a1e.css.map",
-    "main.82c03cc7.js.map": "/react-portfolio/static/js/main.82c03cc7.js.map",
+    "main.60313d6b.js.map": "/react-portfolio/static/js/main.60313d6b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be6a5a1e.css",
-    "static/js/main.82c03cc7.js"
+    "static/js/main.60313d6b.js"
   ]
 }
